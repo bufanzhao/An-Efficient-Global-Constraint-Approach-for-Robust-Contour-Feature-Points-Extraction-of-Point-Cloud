@@ -1,0 +1,2 @@
+function [boundary_pnts] = boundary_extract(input_pnts,number_of_neighbor)
+% input_pnts=haiyun_building, number_of_neighbor=24

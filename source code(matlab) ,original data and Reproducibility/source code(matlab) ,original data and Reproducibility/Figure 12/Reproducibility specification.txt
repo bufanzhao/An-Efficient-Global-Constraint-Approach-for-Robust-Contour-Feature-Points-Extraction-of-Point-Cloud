@@ -1,0 +1,7 @@
+[fold_pnt] = fold_extract(input,radius,PL_threshold,DP_DS, rank_dis_threshold) 
+%input=storage_1
+fold_pnt_1: radius=0.05,PL_threshold=0.001：0.009,DP_DS=4,rank_dis_threshold=3
+
+[boundary_pnts] = boundary_extract(input_pnts,number_of_neighbor)
+% input_pnts=storage_1
+number_of_neighbor=24

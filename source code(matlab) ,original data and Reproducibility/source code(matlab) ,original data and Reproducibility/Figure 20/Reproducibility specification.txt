@@ -1,0 +1,5 @@
+[boundary_pnts] = boundary_extract(input_pnts,number_of_neighbor)；
+number_of_neighbor=24
+
+[fold_pnt] = fold_extract(input,radius,PL_threshold,DP_DS, rank_dis_threshold) ；
+radius=0.5,PL_threshold=0.03,DP_DS=4,rank_dis_threshold=3

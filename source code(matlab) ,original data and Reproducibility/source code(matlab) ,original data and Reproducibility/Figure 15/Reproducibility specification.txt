@@ -1,0 +1,6 @@
+[fold_pnt] = fold_extract(input,radius,PL_threshold,DP_DS, rank_dis_threshold) 
+%input=haiyun_building
+radius=0.3,PL_threshold=0.012 ,DP_DS=4,rank_dis_threshold=3;
+[boundary_pnts] = boundary_extract(input_pnts,number_of_neighbor)；
+%input_pnts=haiyun_building
+number_of_neighbor=24；

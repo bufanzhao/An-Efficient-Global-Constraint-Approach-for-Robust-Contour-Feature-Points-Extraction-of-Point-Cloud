@@ -1,0 +1,4 @@
+ [fold_pnt] = fold_extract(input,radius,PL_threshold,DP_DS, rank_dis_threshold)
+%input=block
+ radius=2.0,PL_threshold=0.30  ,DP_DS=4,rank_dis_threshold=3  
+
